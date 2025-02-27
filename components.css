@@ -1,0 +1,85 @@
+.logo img {
+    max-width: 640px;
+    width: 90vw;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: rgba(229, 92, 46, 0.9);
+    --main-font-color: #FFFFFF;
+    --main-font-color-black: #000000;
+}
+
+@font-face {
+    font-family: 'Moskvich Sans'; /* Название шрифта, которое вы будете использовать в CSS */
+    src: url('./fonts/MoskvichSans-Regular.otf') format('opentype'); /* Путь к файлу и его формат */
+    font-weight: normal; /* Укажите вес шрифта (например, normal, bold) */
+    font-style: normal; /* Укажите стиль (например, normal, italic) */
+}
+
+@font-face {
+    font-family: 'Moskvich Sans';
+    src: url('./fonts/MoskvichSans-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moskvich Sans';
+    src: url("./fonts/MoskvichSans-Medium.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    color: var(--main-font-color);
+    padding: 15px;
+    background-image: url('./img/background.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    font-family: 'Moskvich Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 710px;
+}
+
+.button-back {
+    width: 640px;
+    height: 80px;
+    background: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.line-gray {
+    height: 1px;
+    width: 690px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.button-back.back-mini {
+    width: 60px;
+    height: 60px;
+    content: "";
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 16px;
+}

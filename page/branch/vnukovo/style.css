@@ -1,0 +1,59 @@
+.header-branch img {
+    max-width: 145px;
+    margin-left: 100px;
+}
+
+.header-branch {
+    width: 690px;
+    color: var(--main-font-color-black);
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.work-info {
+    display: flex;
+    gap: 175px;
+}
+
+.work-info__time {
+    color: var(--main-font-color-black);
+}
+
+.work-info__time {
+    display: flex;
+    gap: 15px;
+}
+
+.work-info__phone {
+    color: var(--main-font-color-black);
+}
+
+.maps {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.maps img {
+    width: 640px;
+    gap: -5px;
+}
+
+.branch-people {
+    height: 140px;
+    width: 640px;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.leader-name {
+    margin-right: auto;
+}
+

@@ -1,0 +1,17 @@
+.branch-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 700px;
+    max-height: 1255px;
+}
+
+.branch-menu .index-menu__item {
+    height: 330px;
+    gap: 15px;
+}
+
+.wrapper {
+    height: 1255px;
+}
