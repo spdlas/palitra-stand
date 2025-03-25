@@ -11,8 +11,19 @@
 
 :root {
     --main-color: rgba(229, 92, 46, 0.9);
+    --main-color-gray: rgba(161, 162, 163, 0.5);
     --main-font-color: #FFFFFF;
     --main-font-color-black: #000000;
+    --main-font-color-gray: #A1A2A3;
+    --metro-gray: #A1A2A3;
+    --metro-orange: #F58631;
+    --metro-salad: #B3D445;
+    --metro-blue: #0078BF;
+    --metro-purple: #8E479C;
+    --metro-green: #44B85C;
+    --metro-yellow: #FFCB31;
+    --metro-light-purple: #ACBFE1;
+    --metro-pink: #FA97D0;
 }
 
 @font-face {
@@ -44,6 +55,7 @@ body {
     background-attachment: fixed;
     background-position: center top;
     font-family: 'Moskvich Sans', sans-serif;
+    touch-action: none; /* Запрет масштабирования на touch-устройствах */
 }
 
 .wrapper {
