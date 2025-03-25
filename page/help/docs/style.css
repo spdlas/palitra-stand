@@ -1,0 +1,15 @@
+.social-help-docs {
+    color: var(--main-font-color-black);
+    width: 710px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+}
+
+.wrapper {
+    height: 1255px;
+}
+
+.button-back {
+    margin-top: auto;
+}
