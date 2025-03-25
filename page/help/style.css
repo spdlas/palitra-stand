@@ -1,0 +1,26 @@
+.wrapper {
+    height: 1255px;
+}
+
+.header {
+    margin-bottom: auto;
+}
+
+.help-menu {
+    height: 380px;
+    background-color: var(--main-color);
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-menu__icon img {
+    width: 240px;
+    max-height: 240px;
+}
+
+.help-menu__text {
+    font-size: 28px;
+}

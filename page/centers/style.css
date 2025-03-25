@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    color: var(--main-font-color-black);
+    width: 690px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px var(--main-color-gray);
+    border-top: solid 6px var(--main-color);
+    padding: 16px 38px 16px 32px;
+}
+
+.center.center__special {
+    border-top:solid 6px #B00000;
+}
+
+.center-main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 340px;
+}
+
+.center-main p {
+    color: var(--main-font-color-gray);
+}
+
+.metro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.metro__gray::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-gray);
+}
+
+.metro__orange::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-orange);
+}
+
+.metro__light-purple::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-light-purple);
+}
+
+.metro__salad::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-salad);
+}
+.metro__blue::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-blue);
+}
+
+.metro__purple::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-purple);
+}
+
+.metro__green::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-green);
+}
+
+.metro__yellow::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-yellow);
+}
+
+.metro__pink::before {
+    display: flex;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: var(--metro-pink);
+}
