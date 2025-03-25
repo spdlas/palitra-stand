@@ -14,6 +14,10 @@
     color: var(--main-font-color-black);
 }
 
+.button-back {
+    margin-top: auto;
+}
+
 .mediacia img {
     width: 150px;
 }
