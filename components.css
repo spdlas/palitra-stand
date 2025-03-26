@@ -65,6 +65,7 @@ body {
     flex-direction: column;
     gap: 15px;
     min-width: 710px;
+    max-height: 1255px;
 }
 
 .button-back {
