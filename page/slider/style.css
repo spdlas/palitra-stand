@@ -1,0 +1,25 @@
+.swiper {
+    width: 600px;
+    height: 990px;
+    color: var(--main-font-color-black)
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-width: 640px;
+    max-height: 900px;
+}
+
+.swiper-pagination-bullet {
+    background: var(--main-color);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: var(--main-color);
+}

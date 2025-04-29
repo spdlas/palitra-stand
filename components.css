@@ -28,10 +28,10 @@
 }
 
 @font-face {
-    font-family: 'Moskvich Sans'; /* Название шрифта, которое вы будете использовать в CSS */
-    src: url('./fonts/MoskvichSans-Regular.otf') format('opentype'); /* Путь к файлу и его формат */
-    font-weight: normal; /* Укажите вес шрифта (например, normal, bold) */
-    font-style: normal; /* Укажите стиль (например, normal, italic) */
+    font-family: 'Moskvich Sans';
+    src: url('./fonts/MoskvichSans-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
