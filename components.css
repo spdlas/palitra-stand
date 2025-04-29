@@ -56,7 +56,7 @@ body {
     background-attachment: fixed;
     background-position: center top;
     font-family: 'Moskvich Sans', sans-serif;
-    touch-action: none; /* Запрет масштабирования на touch-устройствах */
+    /*touch-action: none;  Запрет масштабирования на touch-устройствах */
 }
 
 .wrapper {

@@ -113,3 +113,7 @@
     height: 16px;
     background-color: var(--metro-pink);
 }
+
+ .wrapper {
+     max-height: none;
+ }
