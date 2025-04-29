@@ -1,1 +1,1 @@
-setTimeout("location.href='https://fedorovda3.ru/palitra/slider'", 600000)
+setTimeout("location.href='https://fedorovda3.ru/palitra/page/slider'", 600000)
