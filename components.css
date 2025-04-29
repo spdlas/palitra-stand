@@ -65,8 +65,8 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 15px;
-    min-width: 710px;
-    max-height: 1255px;
+    min-width: 680px;
+    max-height: 1250px;
 }
 
 .button-back {
