@@ -5,7 +5,7 @@
       <paths name="Palitra">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="31.31.196.209" />
           </mappings>
         </serverdata>
       </paths>
