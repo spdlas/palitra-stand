@@ -6,3 +6,10 @@ tl.from('.center',{
     x:-50,
     stagger:0.2
 })
+
+gsap.from('.back-mini', {
+    opacity:0,
+    duration:0.8,
+    x:50,
+    stagger:0.2
+})
