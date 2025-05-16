@@ -1,13 +1,19 @@
 .card-container {
     perspective: 1000px;
-    width: 400px;
-    height: 400px;
-    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
 }
 
 .card-container img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.card-name {
+    color: var(--main-font-color-black);
+    font-size: 21px;
+    text-align: center;
 }
 
 .card {
@@ -17,6 +23,7 @@
     transform-style: preserve-3d;
     transition: transform 0.8s;
     cursor: pointer;
+    text-align: left;
 }
 
 .card.flipped {
@@ -30,7 +37,7 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--main-font-color);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
