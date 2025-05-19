@@ -38,14 +38,14 @@ pageonload(function() {
     tl.from('#menu1, #menu3, #menu5, #menu7, #menu9', {
         opacity:0,
         duration:0.5,
-        x:-100,
+        y:100,
         stagger:0.2
     })
 
     tl2.from('#menu2, #menu4, #menu6, #menu8, #menu10', {
         opacity:0,
         duration:0.5,
-        x:100,
+        y:100,
         stagger:0.2
     })
 });

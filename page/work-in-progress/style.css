@@ -1,0 +1,14 @@
+img {
+    max-width: 620px;
+    margin-top: auto;
+}
+
+h2 {
+    color: var(--main-font-color-black);
+    font-size: 38px;
+    margin-bottom: auto;
+}
+.wrapper {
+    justify-content: space-between;
+    height: 1440px;
+}
