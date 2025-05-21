@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 1255px;
+}
+
+.button-back {
+    margin-top: auto;
+    height: 80px;
+}
+
+.information-menu {
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    width: 640px;
+    padding: 16px;
+    gap: 64px;
+    font-size: 32px;
+    height: 35%;
+}
+
+.information-menu img {
+    width: 140px;
+}
+
+.information-menu__text {
+    width: 410px;
+}

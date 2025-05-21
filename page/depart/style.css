@@ -57,3 +57,11 @@
     justify-content: space-between;
     padding-bottom: 10px;
 }
+
+.cards {
+    display: flex;
+    gap: 32px;
+}
+img {
+    object-fit: cover;
+}
