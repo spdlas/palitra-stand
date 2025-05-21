@@ -3,6 +3,11 @@
     width: 90vw;
 }
 
+.logo {
+    width: 640px;
+    height: 133px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
