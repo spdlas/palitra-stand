@@ -1,15 +1,33 @@
-let tl = gsap.timeline();
+document.addEventListener("DOMContentLoaded", () => {
+    gsap.registerPlugin(ScrollTrigger);
 
-tl.from('.center',{
-    opacity:0,
-    duration:0.8,
-    x:-50,
-    stagger:0.2
-})
+    ScrollTrigger.defaults({
+        markers: false, // Включить для отладки (показывает линии триггеров)
+        once: false      // Анимация сработает только один раз
+    });
 
-gsap.from('.back-mini', {
-    opacity:0,
-    duration:0.8,
-    x:50,
-    stagger:0.2
-})
+    // Анимация для центров
+    gsap.utils.toArray('.center').forEach((center) => {
+        gsap.from(center, {
+            opacity: 0,
+            x: -50,
+            duration: 0.6,
+            delay: 0.5,
+            scrollTrigger: {
+                trigger: center,
+                start: "top 90%",
+                end: "bottom 60%"
+            },
+            stagger: true
+        });
+    });
+
+    // Анимация для back-mini элементов
+    gsap.from('.button-back', {
+        opacity: 0,
+        x: 50,
+        duration: 0.6,
+        delay: 0.5,
+        stagger: true
+    })
+});

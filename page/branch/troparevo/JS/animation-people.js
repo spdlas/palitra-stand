@@ -1,44 +1,33 @@
-function pageonload(callback) {
-    // Флаг для отслеживания первой загрузки
-    let isFirstLoad = true;
+document.addEventListener("DOMContentLoaded", () => {
+    gsap.registerPlugin(ScrollTrigger);
 
-    // Основная функция инициализации
-    function init() {
-        if (typeof callback === 'function') {
-            callback();
-        }
-    }
-
-    // Обычная загрузка страницы
-    document.addEventListener('DOMContentLoaded', init);
-
-    // Обработка случая, когда страница загружается из кэша (включая history.back())
-    window.addEventListener('pageshow', function(event) {
-        if (event.persisted || !isFirstLoad) {
-            // Сначала убиваем все текущие анимации GSAP
-            gsap.killTweensOf();
-            // Затем переинициализируем
-            init();
-        }
-        isFirstLoad = false;
+    ScrollTrigger.defaults({
+        markers: false, // Включить для отладки (показывает линии триггеров)
+        once: false      // Анимация сработает только один раз
     });
 
-    // Дополнительно обрабатываем popstate (навигация вперед/назад)
-    window.addEventListener('popstate', function() {
-        gsap.killTweensOf();
-        init();
+    // Анимация для центров
+    gsap.utils.toArray('.header-branch').forEach((center) => {
+        gsap.from(center, {
+            opacity: 0,
+            x: -50,
+            duration: 0.6,
+            delay: 0.5,
+            scrollTrigger: {
+                trigger: center,
+                start: "top 90%",
+                end: "bottom 70%"
+            },
+            stagger: true
+        });
     });
-}
 
-// Пример использования:
-pageonload(function() {
-    let tl = gsap.timeline();
-
-    tl.from('.header-branch', {
-        opacity:0,
-        duration:0.8,
-        x:-50,
-        stagger:0.2
+    // Анимация для back-mini элементов
+    gsap.from('.button-back', {
+        opacity: 0,
+        x: 50,
+        duration: 0.6,
+        delay: 0.5,
+        stagger: true
     })
-
 });
