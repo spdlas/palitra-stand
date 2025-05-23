@@ -48,4 +48,11 @@ pageonload(function() {
         x:100,
         stagger:0.2
     })
+
+    tl.from('.header-branch, .line-gray, .work-info, .map__skol, .map__kunc, .map__krylo, .branch-people, .button-back', {
+        opacity:0,
+        duration:0.8,
+        y:50,
+        stagger:0.2
+    })
 });
