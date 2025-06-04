@@ -6,8 +6,6 @@ const swiper = new Swiper('.swiper', {
         delay: 10000,
     },
 
-
-
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
