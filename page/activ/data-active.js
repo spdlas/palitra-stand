@@ -10,7 +10,7 @@ let actKuncevo = [
     {
         actName: 'Знайка',
         actDesc:'',
-        prepod: 'Васильева Иринна Александровна',
+        prepod: 'Васильева Ирина Александровна',
         photo: 'VasilivaIA.png',
         phone: '8 (495) 416-84-35',
         email: 'VasilevaIA2@social.mos.ru'
@@ -27,7 +27,7 @@ let actKuncevo = [
 
 let actKrylo = [
     {
-        actName: 'Творческая мастерсская',
+        actName: 'Творческая мастерская',
         actDesc:'',
         prepod: 'Абашникова Ольга Борисовна',
         photo: 'AbashnikovaOB.png',
@@ -90,7 +90,7 @@ let actMoj = [
 let actVnuk = [
     {
         actName: 'Дошколята',
-        actDesc: 'Занятия с детьми до шокльного возраста',
+        actDesc: 'Занятия с детьми дошокльного возраста',
         prepod: 'Безбокова Ольга Викторовна',
         photo: 'bezbokovaov.png',
         phone: '8 (495) 736-04-55',
