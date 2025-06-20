@@ -63,10 +63,26 @@
             <div class="index-menu__text">МИНИ-ИГРА</div>
         </div>
     </div>
+    <audio id="sound" src="./sounds/call.mp3" preload="auto"></audio>
+    <button class="sound-button" id="soundButton">
+    </button>
 </div>
 <script src="./JS/disableRightClick.js" defer></script>
 <script src="./JS/slider-redirect.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./JS/animation.js?v=4"></script>
+<script>
+    const soundButton = document.getElementById('soundButton');
+    const sound = document.getElementById('sound');
+
+    // Функция для воспроизведения звука
+    function playSound() {
+        sound.currentTime = 0; // Перематываем звук в начало
+        sound.play();
+    }
+
+    // Добавляем обработчики событий
+    soundButton.addEventListener('click', playSound);
+</script>
 </body>
 </html>

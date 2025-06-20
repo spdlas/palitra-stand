@@ -107,3 +107,14 @@ body {
 .poster img{
     max-width: 640px;
 }
+
+.sound-button {
+    background-image: url("./img/icons/icon-invalid.png");
+    border: solid 1px #000000;
+    border-radius: 12px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 12px;
+    left: 20px;
+}
